@@ -31,7 +31,7 @@
   width: 48px;
   height: 48px;
   border: 5px solid #fff;
-  border-bottom-color: #FF6347; /* Coral color for loader accent */
+  border-bottom-color: #483D8B; /* Dark Slate Blue for loader accent */
   border-radius: 50%;
   display: inline-block;
   box-sizing: border-box;
@@ -49,13 +49,13 @@
 
 /* Navbar Styles */
 .navbar {
-  background-color: #FF6347 !important; /* Coral for navbar */
+  background-color: #483D8B !important; /* Dark Slate Blue for navbar */
   color: white !important;
 }
 
 .nav-link,
 .navbar-brand {
-  background-color: #FF6347 !important; /* Keep Coral for links */
+  background-color: #483D8B !important; /* Keep Dark Slate Blue for links */
   color: white !important;
 }
 
@@ -72,8 +72,8 @@
 }
 
 .custom-nav-link:hover {
-  background-color: #FFA07A; /* Lighter Coral hover effect */
-  color: #20B2AA; /* Light Teal hover */
+  background-color: #E6E6FA; /* Light Lavender hover effect */
+  color: #7B68EE; /* Medium Slate Blue for hover */
   transform: scale(1.05);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -83,14 +83,14 @@
 }
 
 .custom-nav-link.active {
-  background-color: #20B2AA; /* Light Teal for active */
+  background-color: #7B68EE; /* Medium Slate Blue for active */
   color: #fff;
   box-shadow: none;
 }
 
 /* Logout Button */
 .custom-logout-btn {
-  background-color: #FF4500; /* Bright red */
+  background-color: #DC143C; /* Crimson */
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -101,7 +101,7 @@
 }
 
 .custom-logout-btn:hover {
-  background-color: #FF6347; /* Match Coral hover */
+  background-color: #B22222; /* Darker Crimson hover */
   color: #f8f9fa;
   transform: scale(1.05);
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
@@ -109,7 +109,7 @@
 
 .custom-logout-btn:focus {
   outline: none;
-  box-shadow: 0 0 0 3px rgba(255, 99, 71, 0.5); /* Coral focus */
+  box-shadow: 0 0 0 3px rgba(220, 20, 60, 0.5); /* Crimson focus */
 }
 
 /* Sidebar Menu */
@@ -120,7 +120,7 @@
   border-radius: 5px;
   margin-bottom: 10px;
   color: white; /* White text for better contrast */
-  background-color: #008080; /* Teal background */
+  background-color: #B0C4DE; /* Light Steel Blue for sidebar */
   transition: all 0.3s ease;
   text-decoration: none;
 }
@@ -135,18 +135,18 @@
 }
 
 .menu-item:hover {
-  background-color: #20B2AA; /* Light Teal hover */
-  color: #FF6347; /* Coral hover text */
+  background-color: #7B68EE; /* Medium Slate Blue hover */
+  color: white;
   transform: scale(1.05);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 .menu-item:hover .menu-icon {
-  color: #FF6347; /* Coral for icon hover */
+  color: white;
 }
 
 .menu-item.active {
-  background-color: #FF6347; /* Active Coral background */
+  background-color: #7B68EE; /* Active Medium Slate Blue */
   color: white;
 }
 
@@ -199,6 +199,7 @@
   max-width: 300px; /* Adjust card width */
   margin: 0 auto; /* Center align cards if needed */
 }
+
 
 
 
