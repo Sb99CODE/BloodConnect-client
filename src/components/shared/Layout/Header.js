@@ -13,8 +13,8 @@ const Header = () => {
   // logout handler
   const handleLogout = () => {
     localStorage.clear();
-    renderToStaticMarkup.success("Logged out Successfully");
-    // alert("Logged out Successfully");
+    // renderToStaticMarkup.success("Logged out Successfully");
+    alert("Logged out Successfully");
     navigate("/login");
   };
 
