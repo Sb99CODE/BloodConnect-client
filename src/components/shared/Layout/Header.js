@@ -4,6 +4,7 @@ import { FaUser } from "react-icons/fa";
 import { useNavigate, useLocation, Link } from "react-router-dom";
 import { AiOutlineHome, AiOutlineBarChart } from 'react-icons/ai';
 import { useSelector } from "react-redux";
+import { toast } from "react-toastify";
 
 const Header = () => {
   const { user } = useSelector((state) => state.auth);
@@ -12,7 +13,8 @@ const Header = () => {
   // logout handler
   const handleLogout = () => {
     localStorage.clear();
-    alert("Logged out Successfully");
+    renderToStaticMarkup.success("Logged out Successfully");
+    // alert("Logged out Successfully");
     navigate("/login");
   };
 
